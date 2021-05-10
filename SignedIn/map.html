@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parking Map App</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" type="image/png" href="../images/img-01.png"/>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="../css/capstone-6a6d26.webflow.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+<style>
+
+html, body{
+width: 100%;
+    height:100%;
+}
+
+body{
+  background-image: url("roadMain.jpg") !important;
+  background-size: cover !important;
+  margin-top: 0em;
+  background-repeat: repeat;
+
+}
+
+#btn-sub{
+		background-color: #6a35ff;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 50px;
+}
+.btn1{
+  margin-left: 36em;
+  margin-top: -6em;
+}
+.btn2{
+  margin-left: 2em;
+  margin-top: -1em;
+}
+#cont{
+  background-color: white;
+  border: none;
+  margin-top: 5em;
+  border-radius: 25px;
+  width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  padding-left: 50px;
+}
+input{
+  width: 200px !important;
+  font-size: 24px !important;
+  margin-left: 20px !important;
+  padding-left: 20px !important;
+
+}
+.large_input{
+    width: 80% !important;
+    font-size: 24px !important;
+    margin-left: 20px !important;
+    padding-left: 20px !important;
+	color: white;
+
+}
+input, h3, #font{
+    color: black;
+}
+#curruser{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+#font{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+  color: black !important;
+  float: left;
+}
+#reg{
+  margin-left: 100px;
+}
+.mySetter{
+  color: black;
+  text-align: center;
+
+}
+#curruser{
+  margin-bottom: 20px;
+
+}
+#hou{
+  margin-left: 1em !important;
+}
+.H{
+  float: left;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 28px;
+  color: black;
+  margin-left: 4em;
+}
+#wrong{
+  color: black;
+  background-color: #ffdede;
+  text-align: center;
+  padding: 5px 5px;
+  width: 600px;
+  height: 30px;
+  float: left;
+  font-size: 20px;
+}
+#Navbar{
+  background-color: white;
+}
+#logout{
+  background-color: #DC143C;
+  padding-top: 18px !important;
+  width: 9em;
+  height: 10px;
+}
+#cont{
+    position: relative;
+    top: 6px;
+}
+.road{
+    z-index:-1;
+    position: relative;
+
+}/* trying to handle window size changes
+@media screen and (min-width: 800px) { !*The following CSS runs only for displays with a width (in pixels) of more than 800px*!
+     {
+        background-color: lightblue;
+    }
+}*/
+
+</style>
+</head>
+
+
+<body>
+
+  <div data-collapse="medium" data-animation="default" data-duration="400" id="Navbar" data-w-id="8e7d6612-01c7-9bb0-1b73-9c98c9ce27b9" role="banner" class="navbar w-nav">
+     <div class="navigation-container">
+       <div class="navigation-left">
+         <a href="index.html" class="brand w-nav-brand"><img src="images/Logo-Mark.svg" width="47" height="45" alt=""></a>
+         <div class="text-block-81">Parking Simplified</div>
+       </div>
+         <div role="navigation" id = "myNav"class="nav-menu w-nav-menu">
+             <a href="../index.html" class="nav-link w-nav-link">Home</a>
+           <a href="map.html" aria-current="page" class="nav-link w-nav-link w--current">Map</a>
+           <a href="pay.html" class="nav-link w-nav-link">Pay</a>
+           <a href="extend.html" class="nav-link w-nav-link">Extend</a>
+           <a href="../faq.html" class="nav-link w-nav-link">FAQ</a>
+           <a href="../contact.html" class="nav-link w-nav-link">Contact</a>
+
+         </div>
+       <div class="navigation-right">
+         <div class="div-block-3">
+           <a href="../create.html" id = "getStart" class="button-navigation w-button">Get Started</a>
+           <a href="../index.html" id = "logout" class="button-navigation w-button">Logout</a>
+         </div>
+         <div class="menu-button w-nav-button">
+           <div class="icon-2 w-icon-nav-menu"></div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+<div class="container">
+    <br>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Please Provide Some Details: </h2>
+            </div>
+            <div class="modal-body">
+                <form id="issue_info">
+                    <input class="large_input" type="text" name="desc" placeholder="Describe the Issue:">
+                    <br>
+                    <input class="large_input" type="text" name="lic" placeholder="License Plate No. of Vehicle in the Spot (if any):">
+                    <br>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+    <br /><br />
+
+    <div id = "cont">
+      <p id = "curruser"></p>
+
+      <div id = "log_Block">
+
+          <p id = "font">Enter your PSU id:</p>
+          <form id="set_user_id">
+              <input type="text" name="new_user_id" placeholder="Ex: 1234567890">
+              <br>
+              <button id = "btn-sub" class="btn btn1">Set</button>
+          </form>
+
+          <div id="reg">
+            <a href="../create.html" class="nav-link w-nav-link">Register for an account</a>
+            <a href="#" class="nav-link w-nav-link">|</a>
+            <a href="../forgot.html" class="nav-link w-nav-link">Forgot ID</a>
+          </div>
+
+      </div>
+
+
+
+
+          <div id="limit">
+              <p id = "font">
+                How Long do you Wish to Reserve (in hours)?
+              </p>
+
+              <form id="limit_form">
+                 <p class="H">
+                   Hours:
+                 </p>
+                  <input type="text" min="0" id = "hou" name="company_limit" placeholder="Ex: 5">
+                  <button id = "btn-sub" class="btn btn2">Set</button>
+              </form>
+
+              <p id="lim" class = "mySetter">
+
+              </p>
+          </div>
+
+  </div>
+
+    <br>
+    <br>
+    <br>
+   <!-- Trees <img style="position:absolute; left:110px; top:310px;  WIDTH:135px; HEIGHT:200px" SRC="tree.png" >
+    <img style="position:absolute; left:970px; top:1510px;  WIDTH:135px; HEIGHT:200px" SRC="tree.png" >
+    <img style="position:absolute; left:110px; top:1910px;  WIDTH:135px; HEIGHT:200px" SRC="tree.png" >
+-->
+
+<div id = "boom">
+
+    <div class = "inline-block">
+  <ul id="companies_ul" class="collection"></ul>
+
+    </div>
+
+    <!--<img  style="position:absolute; top:392px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:575px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:758px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:941px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1124px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1307px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1490px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1673px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1856px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:2039px; right:878px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+
+    <img  style="position:absolute; top:392px; right:208px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:575px; right:208px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:758px; right:208px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:941px; right:208px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1124px; right:208px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1307px; right:208px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >
+    <img  style="position:absolute; top:1490px; right:208px; WIDTH:19%; HEIGHT:1%;" SRC="lines.png" >-->
+
+
+
+
+    <div class = "inline-block">
+            <img class="road" style="position:absolute; top:100px; left:39%; right:535px; WIDTH:26%; HEIGHT:2319px" SRC="road.jpg" >
+        </div>
+
+
+
+        <div class = "inline-block">
+    <ul id="companies_ul2" class="collection"></ul>
+    </div>
+
+    <div class = "inline-block">
+    <ul id="companies_ul3" class="collection"></ul>
+    </div>
+
+    <div class = "inline-block">
+    <ul id="companies_ul4" class="collection"></ul>
+    </div>
+</div>
+</div>
+
+<!--    <img style="position:absolute; top: 1540px; left:970px; WIDTH:200px; HEIGHT:300px" SRC="tree.png" >-->
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyDOh0zFnZNdsiMIToZHZFnXwb08vilQJ-Y",
+        authDomain: "parking-simplified-capstone.firebaseapp.com",
+        projectId: "parking-simplified-capstone",
+        storageBucket: "parking-simplified-capstone.appspot.com",
+        messagingSenderId: "49557489909",
+        appId: "1:49557489909:web:e0de1c10a469cfa8e7ddbc",
+        measurementId: "G-7T7LTME58F"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    db.settings({});
+    console.log(db)
+</script>
+<script type="text/javascript" src="../js/app.js"></script>
+
+</body>
+</html>

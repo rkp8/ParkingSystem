@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parking Map App</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" type="image/png" href="../images/img-01.png"/>
+    <link href="../css/capstone-6a6d26.webflow.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+
+
+</head>
+<style>
+
+body{
+  background-image: url(../images/secondCar.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Navbar{
+  background-color: white !important;
+}
+.container{
+  background-color: white !important;
+  margin-top: 300px;
+  height: auto;
+  width: auto;
+  max-width: 825px;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+input{
+  width: auto !important;
+  font-size: 24px  !important;
+  text-align: center;
+}
+#myFonts, .myFonts{
+  font-size: 28px;
+  color: black;
+  float: left;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+#btn-sub{
+		background-color: #6a35ff;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 50px;
+
+}
+.btn1{
+  margin-left: 20px;
+  margin-top: -.5em;
+  margin-bottom: 10px;
+}
+.btn2{
+  margin-left: -8px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  width: 2em;
+}
+#reg{
+  margin-left: 11em;
+  margin-top: .5em;
+}
+#headFont{
+  text-align: center;
+  font-size: 38px;
+  color: blue;
+}
+#curruser{
+  margin-left: 3em;
+  font-size: 24px;
+}
+#set_user_id{
+  margin-top: 10px;
+}
+#errorMSG{
+  text-align: center;
+  background-color: #ef8752 ;
+  padding: 20px 20px;
+  color: white;
+  font-weight: bold;
+}
+#loggedin{
+  margin-left: 14em;
+}
+.bingo{
+  margin-left: -5em;
+}
+hr{
+  margin-top: 2em;
+}
+#myFont{
+  margin-left: 7em;
+  color: black;
+  font-size: 25px;
+  float: left;
+}
+#inp{
+  width: 10em !important;
+  margin-left: .5em;
+  margin-top: -.5em;
+}
+#bal{
+  margin-top: -2em;
+  font-size: 20px;
+  float: right;
+}
+#paypal-button-container{
+  text-align: center;
+}
+</style>
+
+<body>
+
+  <div data-collapse="medium" data-animation="default" data-duration="400" id="Navbar" data-w-id="8e7d6612-01c7-9bb0-1b73-9c98c9ce27b9" role="banner" class="navbar w-nav">
+     <div class="navigation-container">
+       <div class="navigation-left">
+         <a href="index.html" class="brand w-nav-brand"><img src="images/Logo-Mark.svg" width="47" height="45" alt=""></a>
+         <div class="text-block-81">Parking Simplified</div>
+       </div>
+         <div role="navigation" id = "myNav"class="nav-menu w-nav-menu">
+             <a href="../index.html" class="nav-link w-nav-link">Home</a>
+             <a href="map.html" class="nav-link w-nav-link">Map</a>
+             <a href="pay.html" aria-current="page" class="nav-link w-nav-link   w--current">Pay</a>
+             <a href="extend.html"  class="nav-link w-nav-link">Extend</a>
+             <a href="../faq.html" class="nav-link w-nav-link">FAQ</a>
+             <a href="../contact.html" class="nav-link w-nav-link">Contact</a>
+
+         </div>
+       <div class="navigation-right">
+         <div class="div-block-3">
+           <a href="../create.html" id = "getStart" class="button-navigation w-button">Get Started</a>
+         </div>
+         <div class="menu-button w-nav-button">
+           <div class="icon-2 w-icon-nav-menu"></div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+  <p id="headFont">
+    Need more Time, No Worries!
+  </p>
+<div class="container">
+
+    <p id="curruser" class = "myFonts"></p>
+
+
+    <div id = "login">
+      <form id="set_user_id">
+          <p id = "myFonts">
+            Enter ID:
+          </p>
+          <input type="text" name="new_user_id" id="description" placeholder="Ex: 123456789">
+          <button class="btn btn1" id = "btn-sub">Set</button>
+          <br />
+      </form>
+
+      <div id="reg">
+        <a href="../create.html" class="nav-link w-nav-link">Register for an account</a>
+        <a href="#" class="nav-link w-nav-link">|</a>
+        <a href="../forgot.html" class="nav-link w-nav-link">Forgot ID</a>
+      </div>
+
+      <div id = "errorMSG">
+        Invalid Penn State ID not Found!
+      </div>
+    </div>
+
+
+    <div id="money">
+       <form id="money_form">
+         <hr />
+         <p id = "bal"></p>
+         <br />
+          <p id = "myFont" class = "bingo">
+            Enter Amount:
+          </p>
+          <input id ="inp"class="form-control" max="999" min="0" name="company_amount" id="amount" type="number"> <!-- max = total -->
+          <br />
+          <button class="btn btn2" id = "btn-sub">Pay</button>
+      </form>
+
+          <!-- Set up a container element for the button -->
+      <div id="paypal-button-container"></div>
+
+      <!-- Include the PayPal JavaScript SDK -->
+      <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+
+      <script>
+          // Render the PayPal button into #paypal-button-container
+          paypal.Buttons({
+              style: {
+                  layout: 'horizontal'
+              }
+          }).render('#paypal-button-container');
+      </script>
+   </div>
+
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyDOh0zFnZNdsiMIToZHZFnXwb08vilQJ-Y",
+        authDomain: "parking-simplified-capstone.firebaseapp.com",
+        projectId: "parking-simplified-capstone",
+        storageBucket: "parking-simplified-capstone.appspot.com",
+        messagingSenderId: "49557489909",
+        appId: "1:49557489909:web:e0de1c10a469cfa8e7ddbc",
+        measurementId: "G-7T7LTME58F"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    db.settings({});
+    console.log(db)
+</script>
+<script type="text/javascript" src="../js/forms.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Parking-Simplified",
+  "version": "1.0.0",
+  "dependencies": {
+    "@stripe/stripe-js": "^1.13.2",
+    "browserify": "^17.0.0",
+    "stripe": "^8.143.0"
+  }
+}

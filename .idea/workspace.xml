@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d26149a-0d87-40ca-9516-7f040d2a5652" name="Default Changelist" comment="  delete spot decrease capacity by 1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qlqrVAKgAL5Zh27I5ryxTJZVXC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SignedIn" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SignedIn/images" />
+      <recent name="$PROJECT_DIR$/SignedIn" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d26149a-0d87-40ca-9516-7f040d2a5652" name="Default Changelist" comment="" />
+      <created>1617664725923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617664725923</updated>
+      <workItem from="1617664728089" duration="4351000" />
+      <workItem from="1617737237416" duration="3278000" />
+      <workItem from="1617823436976" duration="16829000" />
+      <workItem from="1617847245792" duration="6503000" />
+      <workItem from="1617903477008" duration="180000" />
+      <workItem from="1618019919361" duration="6708000" />
+      <workItem from="1618159238440" duration="3235000" />
+      <workItem from="1618177867300" duration="2088000" />
+      <workItem from="1618180179955" duration="3264000" />
+      <workItem from="1618266412645" duration="2179000" />
+      <workItem from="1618271951809" duration="3200000" />
+      <workItem from="1618278444268" duration="1431000" />
+      <workItem from="1618442700571" duration="708000" />
+      <workItem from="1618537772950" duration="388000" />
+      <workItem from="1618539512317" duration="162000" />
+      <workItem from="1618549421217" duration="979000" />
+      <workItem from="1618588515903" duration="4028000" />
+      <workItem from="1618701636181" duration="9109000" />
+      <workItem from="1618756207788" duration="1033000" />
+      <workItem from="1618785233601" duration="529000" />
+      <workItem from="1619211411983" duration="71000" />
+      <workItem from="1619318121619" duration="309000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added the map, css is not working">
+      <created>1617669591926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617669591926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Need to get phone number of each user.">
+      <created>1617739151363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617739151363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Need to get phone number of each user.">
+      <created>1617739653792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617739653792</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Need to get phone number of each user.">
+      <created>1617739898535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617739898535</updated>
+    </task>
+    <task id="LOCAL-00005" summary="need to automatically login user in map and pay">
+      <created>1617828313645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617828313645</updated>
+    </task>
+    <task id="LOCAL-00006" summary="need to be able to add user data to both firestore and firebase">
+      <created>1617833078411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617833078411</updated>
+    </task>
+    <task id="LOCAL-00007" summary="need to be able to add user data to both firestore and firebase">
+      <created>1617833974681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617833974681</updated>
+    </task>
+    <task id="LOCAL-00008" summary="need to be able to add user data to both firestore and firebase">
+      <created>1617834497939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617834497940</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed nav bar">
+      <created>1617834699183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617834699183</updated>
+    </task>
+    <task id="LOCAL-00010" summary="got rid of firebase auth">
+      <created>1617844095613</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617844095613</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new 5 min video">
+      <created>1617903496150</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617903496150</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new 5 min video">
+      <created>1617904686896</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617904686896</updated>
+    </task>
+    <task id="LOCAL-00013" summary="spot popularity">
+      <created>1618164472535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618164472535</updated>
+    </task>
+    <task id="LOCAL-00014" summary="extend reservation">
+      <created>1618179898974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618179898974</updated>
+    </task>
+    <task id="LOCAL-00015" summary="sms receipts">
+      <created>1618182431894</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618182431894</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added db queries to stripe payment">
+      <created>1618268114707</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618268114707</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed stripe errors">
+      <created>1618274177152</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618274177153</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixed positioning of columns">
+      <created>1618446373630</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618446373630</updated>
+    </task>
+    <task id="LOCAL-00019" summary="user Id validation">
+      <created>1618448852704</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618448852705</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2 columns only">
+      <created>1618451379832</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1618451379832</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2 columns only, road in btwn">
+      <created>1618453315819</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1618453315820</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2 columns only, road in btwn">
+      <created>1618454052525</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1618454052527</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2 columns only, road in btwn">
+      <created>1618457361903</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1618457361903</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fixed color scheme">
+      <created>1618460495726</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1618460495726</updated>
+    </task>
+    <task id="LOCAL-00025" summary="made spots fixed position">
+      <created>1618461324333</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1618461324333</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added admin link to nav bar">
+      <created>1618462056341</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1618462056341</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fixed labeling bug">
+      <created>1618462726866</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618462726866</updated>
+    </task>
+    <task id="LOCAL-00028" summary="new colors/borders">
+      <created>1618506810411</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1618506810413</updated>
+    </task>
+    <task id="LOCAL-00029" summary="new colors/borders">
+      <created>1618510271239</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1618510271241</updated>
+    </task>
+    <task id="LOCAL-00030" summary="new colors/borders">
+      <created>1618510635551</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1618510635552</updated>
+    </task>
+    <task id="LOCAL-00031" summary="new colors/borders">
+      <created>1618511477053</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1618511477054</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fixed form ui">
+      <created>1618514385995</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1618514385995</updated>
+    </task>
+    <task id="LOCAL-00033" summary="blue text for issues">
+      <created>1618516947714</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1618516947718</updated>
+    </task>
+    <task id="LOCAL-00034" summary="handle deadline=null">
+      <created>1618534094079</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618534094080</updated>
+    </task>
+    <task id="LOCAL-00035" summary="handle deadline=null">
+      <created>1618538148197</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1618538148198</updated>
+    </task>
+    <task id="LOCAL-00036" summary="new video and sms promo">
+      <created>1618602333774</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1618602333774</updated>
+    </task>
+    <task id="LOCAL-00037" summary="faq updates">
+      <created>1618604032344</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1618604032344</updated>
+    </task>
+    <task id="LOCAL-00038" summary="  delete spot decrease capacity by 1">
+      <created>1618785533358</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1618785533358</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="need to automatically login user in map and pay" />
+    <MESSAGE value="need to be able to add user data to both firestore and firebase" />
+    <MESSAGE value="fixed nav bar" />
+    <MESSAGE value="got rid of firebase auth" />
+    <MESSAGE value="new 5 min video" />
+    <MESSAGE value="spot popularity" />
+    <MESSAGE value="extend reservation" />
+    <MESSAGE value="sms receipts" />
+    <MESSAGE value="added db queries to stripe payment" />
+    <MESSAGE value="fixed stripe errors" />
+    <MESSAGE value="fixed positioning of columns" />
+    <MESSAGE value="user Id validation" />
+    <MESSAGE value="2 columns only" />
+    <MESSAGE value="2 columns only, road in btwn" />
+    <MESSAGE value="fixed color scheme" />
+    <MESSAGE value="made spots fixed position" />
+    <MESSAGE value="added admin link to nav bar" />
+    <MESSAGE value="fixed labeling bug" />
+    <MESSAGE value="new colors/borders" />
+    <MESSAGE value="fixed form ui" />
+    <MESSAGE value="blue text for issues" />
+    <MESSAGE value="handle deadline=null" />
+    <MESSAGE value="new video and sms promo" />
+    <MESSAGE value="faq updates" />
+    <MESSAGE value="  delete spot decrease capacity by 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="  delete spot decrease capacity by 1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="229" y="100" key="SettingsEditor" timestamp="1618588543354">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1618588543354" />
+    <state x="319" y="201" key="Vcs.Push.Dialog.v2" timestamp="1618785539226">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1618785539226" />
+    <state x="159" y="118" width="1281" height="677" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1618460817039">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="159" y="118" width="1281" height="677" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1618460817039" />
+    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619318126095">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="521" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1619318126095" />
+    <state x="540" y="347" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617843716552">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="540" y="347" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.877@0.23.1440.877" timestamp="1617843716552" />
+  </component>
+</project>
